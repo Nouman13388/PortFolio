@@ -336,6 +336,7 @@ input {
   color: var(--neutral-n-800, #172b4d);
   font-size: 17px;
   font-weight: 400;
+  padding: 15px 16px 15px 38px;
 }
 textarea {
   width: 327px;
@@ -343,8 +344,8 @@ textarea {
   border-radius: 8px;
   border: 1px solid var(--base-100, #cfd8dc);
   background: var(--mono-white, #fff);
-  color: var(--neutrals-n-60, #b3bac5);
   font-size: 15px;
+  padding: 15px 16px 15px 38px;
   font-style: normal;
   text-align: start;
   line-height: 24px; /* 160% */
