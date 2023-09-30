@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .toolbar {
   display: flex;
   width: 375px;
@@ -287,4 +292,77 @@
   height: 1px;
   flex-shrink: 0;
   background: var(--neutrals-n-40, #dfe1e6);
+}
+
+.contact {
+  background-color: #6070ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  border-radius: 80px 0;
+  gap: 16px;
+}
+
+.contact-me {
+  color: var(--neutrals-n-0, #fff);
+  text-align: center;
+
+  /* Header / 2 */
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 130% */
+}
+
+.contact_desc {
+  color: var(--primary-b-50, #ebebff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  margin-bottom: 36px;
+}
+
+input {
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #cfd8dc);
+  background: var(--mono-white, #fff);
+  color: var(--neutral-n-800, #172b4d);
+  font-size: 17px;
+  font-weight: 400;
+}
+textarea {
+  width: 327px;
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #cfd8dc);
+  background: var(--mono-white, #fff);
+  color: var(--neutrals-n-60, #b3bac5);
+  font-size: 15px;
+  font-style: normal;
+  text-align: start;
+  line-height: 24px; /* 160% */
+}
+
+.get-in-touch {
+padding: 12px 16px;
+align-items: center;
+border-radius: 8px;
+background: var(--neutrals-n-0, #FFF);
+color: var(--primary-b-400, #6070FF);
+text-align: center;
+align-self: flex-start;
+/* Button /Normal */
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 141.176% */
+letter-spacing: 0.51px;
 }
