@@ -1,3 +1,4 @@
+/* stylelint-disable csstree/validator */
 * {
   margin: 0;
   padding: 0;
@@ -325,9 +326,9 @@ input {
   border: 1px solid var(--base-100, #cfd8dc);
   background: var(--mono-white, #fff);
   color: var(--neutral-n-800, #172b4d);
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
-  padding: 15px 16px 15px 38px;
+  text-indent: 4%;
 }
 
 textarea {
@@ -336,11 +337,12 @@ textarea {
   border-radius: 8px;
   border: 1px solid var(--base-100, #cfd8dc);
   background: var(--mono-white, #fff);
-  font-size: 15px;
-  padding: 15px 16px 15px 38px;
+  font-size: 13px;
   font-style: normal;
   text-align: start;
   line-height: 24px;
+  text-indent: 4%;
+  content: #b3bac5;
 }
 
 .get-in-touch {
