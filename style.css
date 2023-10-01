@@ -84,13 +84,13 @@
   width: 170.167px;
   height: 20px;
   padding-top: 20px;
+  padding-bottom: 80px;
 }
 
 .works {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 114px 24px;
-  gap: 88px;
+  padding: 30px 24px;
 }
 
 .layout1 {
