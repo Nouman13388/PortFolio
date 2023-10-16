@@ -126,7 +126,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 8.9444rem;
-    
     padding: 8.9444rem;
   }
 
@@ -593,7 +592,7 @@
     line-height: 44px;
   }
 
-  .project-image{
+  .project-image {
     width: 295px;
     height: 220px;
   }
@@ -797,7 +796,7 @@
     line-height: 52px;
     align-self: center;
   }
-  
+
   .contact_desc {
     color: var(--primary-b-50, #ebebff);
     text-align: center;
@@ -806,7 +805,7 @@
     line-height: 28px;
     margin-bottom: 36px;
   }
-  
+
   input {
     width: 327px;
     height: 48px;
@@ -818,7 +817,7 @@
     font-weight: 400;
     text-indent: 4%;
   }
-  
+
   textarea {
     width: 327px;
     height: 170px;
