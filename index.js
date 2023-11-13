@@ -1,1 +1,0 @@
-document.getElementsByTagName('div')[0].style.display = 'none';
